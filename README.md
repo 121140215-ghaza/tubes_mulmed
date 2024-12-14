@@ -1,5 +1,10 @@
 # Boo! - Filter Tebak Hasil Gabungan Warna
 
+## Anggota
+1. Mohammad Hisyam Alif Setiawan
+2. Muhammad Farhan Annaufal
+3. Ghaza Muhammad Al Ghifari
+
 ## Deskripsi
 "Boo!" adalah sebuah filter interaktif yang menguji kemampuan pengguna dalam menebak hasil campuran warna. Dalam filter ini, pengguna akan diberikan dua warna dasar, dan mereka harus memilih warna hasil campuran yang benar dalam waktu terbatas. Setiap pilihan memiliki dua opsi jawaban yang ditampilkan secara visual di layar. Pengguna akan memilih jawaban dengan cara menggerakkan kepala mereka ke kiri atau ke kanan, sesuai dengan pilihan yang diinginkan.
 
