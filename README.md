@@ -6,7 +6,7 @@
 3. Ghaza Muhammad Al Ghifari
 
 ## Laporan
-Laporan bisa diakses secara online melalui website overleaf: https://www.overleaf.com/read/kwmgbsstjgck#60a959
+Laporan atau report bisa diakses secara online melalui website overleaf: https://www.overleaf.com/read/kwmgbsstjgck#60a959
 
 ## Deskripsi
 "Boo!" adalah sebuah filter interaktif yang menguji kemampuan pengguna dalam menebak hasil campuran warna. Dalam filter ini, pengguna akan diberikan dua warna dasar, dan mereka harus memilih warna hasil campuran yang benar dalam waktu terbatas. Setiap pilihan memiliki dua opsi jawaban yang ditampilkan secara visual di layar. Pengguna akan memilih jawaban dengan cara menggerakkan kepala mereka ke kiri atau ke kanan, sesuai dengan pilihan yang diinginkan.
