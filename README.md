@@ -1,9 +1,9 @@
 # Boo! - Filter Tebak Hasil Gabungan Warna
 
 ## Anggota
-1. Mohammad Hisyam Alif Setiawan
-2. Muhammad Farhan Annaufal
-3. Ghaza Muhammad Al Ghifari
+1. Mohammad Hisyam Alif Setiawan (@121140131MohammadHisyamAlifSetiawan)
+2. Muhammad Farhan Annaufal (@MuhammadFarhanAnnaufal)
+3. Ghaza Muhammad Al Ghifari (@121140215-ghaza)
 
 ## Laporan
 Laporan atau report bisa diakses secara online melalui website overleaf: https://www.overleaf.com/read/kwmgbsstjgck#60a959
