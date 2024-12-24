@@ -16,14 +16,13 @@ Setelah memilih jawaban, filter akan memberikan notifikasi apakah jawaban terseb
 - **Batas Waktu**: Setiap pertanyaan memiliki waktu terbatas untuk menebak jawaban, menambah tantangan dalam permainan.
 - **Notifikasi Hasil Jawaban**: Setelah menjawab, pengguna akan diberi tahu apakah tebakan mereka benar atau salah.
 - **Skor**: Skor akhir akan dihitung berdasarkan jumlah jawaban benar yang diberikan oleh pengguna, dan ditampilkan di akhir permainan.
-- **Visualisasi Warna**: Setiap warna yang ditampilkan memiliki efek visual yang menarik untuk meningkatkan pengalaman pengguna.
 
 ## Teknologi yang Digunakan
 - **OpenCV**: Untuk pengolahan gambar dan pengolahan warna dalam filter, termasuk deteksi wajah untuk mendeteksi gerakan kepala pengguna.
 - **MediaPipe**: Untuk deteksi gerakan kepala secara real-time, memungkinkan pengguna untuk memilih jawaban dengan cara menggerakkan kepala mereka.
 
 ## Cara Kerja Filter
-1. **Tampilan Warna**: Pada setiap pertanyaan, dua warna dasar akan ditampilkan di layar. Warna-warna ini dapat berupa warna primer (merah, biru, kuning) atau campuran dari warna-warna tersebut.
+1. **Tampilan Warna**: Pada setiap pertanyaan, dua warna dasar akan ditampilkan di layar.
 2. **Pilihan Jawaban**: Setelah warna dasar ditampilkan, pengguna diberikan dua pilihan warna hasil campuran yang muncul di layar. Pilihan ini berada di sisi kiri dan kanan layar.
 3. **Interaksi Pengguna**: Pengguna memilih salah satu pilihan jawaban dengan menggerakkan kepala mereka ke kiri atau ke kanan. Deteksi gerakan kepala dilakukan oleh MediaPipe.
 4. **Timer**: Filter akan mengaktifkan timer yang memberikan batas waktu beberapa detik untuk membuat keputusan. Setelah waktu habis, jawaban akan dikunci secara otomatis.
