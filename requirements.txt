@@ -1,0 +1,45 @@
+ ## Instalasi dan Penggunaan
+ # Instalasi
+ Untuk menjalankan filter Boo!- Filter Tebak Hasil Gabungan Warna, beberapa pustaka (library)
+ yang diperlukan adalah OpenCV dan MediaPipe. Berikut adalah langkah-langkah untuk menginstal
+ dependensi yang diperlukan:
+   1. Persyaratan Sistem:
+     • Python 3.7-3.10 (Recommended 3.9)
+     • Sistem operasi: Windows, macOS, atau Linux
+   2. Langkah Instalasi:
+     • Instalasi Python: Pastikan Python versi terbaru sudah terinstal. Jika belum, silakan unduh dan instal Python dari situs resmi Python.
+     • Instalasi OpenCV: Setelah Python terinstal, kita perlu menginstal pustaka OpenCV yangdigunakan untuk pengolahan gambar. Gunakan perintah berikut untuk menginstal OpenCV melalui pip:
+        
+          pip install opencv-python
+
+     • Instalasi MediaPipe: MediaPipe digunakan untuk deteksi dan pelacakan wajah secara real-time. Instal pustaka ini dengan perintah:
+
+          pip install mediapipe
+
+     • Instalasi dependensi tambahan: Beberapa pustaka tambahan yang diperlukan untuk menjalankan aplikasi adalah time dan random, yang sudah terinstal bersama Python secara default.
+   3. Verifikasi Instalasi: Untuk memverifikasi bahwa semua pustaka telah terinstal dengan benar, jalankan kode berikut di terminal atau command prompt Python:
+ 
+          import cv2
+           import mediapipe as mp
+             print("OpenCV and MediaPipe installed successfully!")
+ 
+      Jika tidak ada error, instalasi berhasil.
+
+ ## Penggunaan
+   1. Persiapkan Webcam: Pastikan webcam kita terhubung dan berfungsi dengan baik. Filter ini menggunakan webcam untuk mendeteksi gerakan wajah pengguna.
+   2. Menjalankan Program: Setelah pustaka terinstal, kita dapat menjalankan filter dengan menjalankan script Python yang sudah disediakan. Berikut adalah langkah-langkah untuk menjalankan filter:
+     • Pastikan kita berada di direktori yang sama dengan file script Pythonnya.
+     • Jalankan script menggunakan perintah:
+ 
+          python Filter Tebak Warna.py
+ 
+   3. Cara Bermain: Setelah program berjalan, jendela akan menampilkan dua warna yang digabungkan. Pengguna akan diminta untuk memilih salah satu dari dua pilihan yang ditampilkan dengan menggerakkan kepala ke kiri atau ke kanan. Berikut adalah cara interaksi:
+     • Kepala ke kiri: Pilihan pertama akan dipilih.
+     • Kepala ke kanan: Pilihan kedua akan dipilih.
+      Jika jawaban benar, program akan menampilkan pesan "Benar". Jika salah, akan muncul pesan "Salah". Skor akan terus diperbarui, dan permainan akan berakhir setelah sejumlah pertanyaan selesai atau waktu habis.
+   4. Menutup Program: Kita dapat menutup aplikasi dengan menekan tombol ’q’ pada jendela yang menampilkan permainan. Setelah itu, jendela akan ditutup secara otomatis.
+   5. Pengaturan Waktu dan Pertanyaan:
+     • Waktu setiap pertanyaan: 7 detik
+     • Jeda antar pertanyaan: 3 detik
+     • Jumlah pertanyaan maksimal: 10
+      Dengan langkah-langkah di atas, kita dapat memulai permainan Boo!- Filter Tebak Hasil Gabungan Warna di perangkat. Nikmati permainan dan lihat seberapa cepat kamu dapat menebak hasil campuran warna!
