@@ -1,4 +1,6 @@
 # Boo! - Filter Tebak Hasil Gabungan Warna
+Project Mata Kuliah Sistem / Teknologi Multimedia Teknik Informatika ITERA
+Dosen Pengampu : Martin Clinton Tosima Manullang, S.T., M.T.
 
 ## Anggota
 1. Mohammad Hisyam Alif Setiawan (@121140131MohammadHisyamAlifSetiawan)
@@ -31,6 +33,30 @@ Setelah memilih jawaban, filter akan memberikan notifikasi apakah jawaban terseb
 4. **Timer**: Filter akan mengaktifkan timer yang memberikan batas waktu beberapa detik untuk membuat keputusan. Setelah waktu habis, jawaban akan dikunci secara otomatis.
 5. **Pemberitahuan Hasil**: Setelah memilih jawaban, filter akan menampilkan pemberitahuan apakah jawaban yang diberikan benar atau salah.
 6. **Skor**: Filter akan mencatat jawaban yang benar dan memberi skor. Di akhir permainan, total skor yang diperoleh akan ditampilkan.
+
+## Instruksi Instalasi
+Untuk menjalankan filter Boo!- Filter Tebak Hasil Gabungan Warna, beberapa pustaka (library) yang diperlukan adalah OpenCV dan MediaPipe. Berikut adalah langkah-langkah untuk menginstal dependensi yang diperlukan:
+   1. Persyaratan Sistem:
+     • Python 3.7-3.10 (Recommended 3.9)
+     • Sistem operasi: Windows, macOS, atau Linux
+   2. Langkah Instalasi:
+     • Instalasi Python: Pastikan Python versi terbaru sudah terinstal. Jika belum, silakan unduh dan instal Python dari situs resmi Python.
+     • Instalasi OpenCV: Setelah Python terinstal, kita perlu menginstal pustaka OpenCV yangdigunakan untuk pengolahan gambar. Gunakan perintah berikut untuk menginstal OpenCV melalui pip:
+        
+          pip install opencv-python
+
+     • Instalasi MediaPipe: MediaPipe digunakan untuk deteksi dan pelacakan wajah secara real-time. Instal pustaka ini dengan perintah:
+
+          pip install mediapipe
+
+     • Instalasi dependensi tambahan: Beberapa pustaka tambahan yang diperlukan untuk menjalankan aplikasi adalah time dan random, yang sudah terinstal bersama Python secara default.
+   3. Verifikasi Instalasi: Untuk memverifikasi bahwa semua pustaka telah terinstal dengan benar, jalankan kode berikut di terminal atau command prompt Python:
+ 
+          import cv2
+           import mediapipe as mp
+             print("OpenCV and MediaPipe installed successfully!")
+ 
+      Jika tidak ada error, instalasi berhasil.
 
 ## Instruksi Penggunaan
 1. **Aktifkan Filter**: Pilih filter "Boo!" dari daftar filter yang tersedia.
