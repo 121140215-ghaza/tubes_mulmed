@@ -37,8 +37,7 @@ Setelah memilih jawaban, filter akan memberikan notifikasi apakah jawaban terseb
 ## Instruksi Instalasi
 Untuk menjalankan filter Boo!- Filter Tebak Hasil Gabungan Warna, beberapa pustaka (library) yang diperlukan adalah OpenCV dan MediaPipe. Berikut adalah langkah-langkah untuk menginstal dependensi yang diperlukan:
    1. Persyaratan Sistem:
-      Python 3.7-3.10 (Recommended 3.9)
-      Sistem operasi: Windows, macOS, atau Linux
+      Python 3.7-3.10 (Recommended 3.9), Sistem operasi seperti Windows, macOS, atau Linux
    2. Langkah Instalasi:
      • Instalasi Python: Pastikan Python versi terbaru sudah terinstal. Jika belum, silakan unduh dan instal Python dari situs resmi Python.
      • Instalasi OpenCV: Setelah Python terinstal, kita perlu menginstal pustaka OpenCV yangdigunakan untuk pengolahan gambar. Gunakan perintah berikut untuk menginstal OpenCV melalui pip:
