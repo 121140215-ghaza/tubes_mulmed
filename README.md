@@ -44,11 +44,11 @@ Untuk menjalankan filter Boo!- Filter Tebak Hasil Gabungan Warna, beberapa pusta
         
           pip install opencv-python
 
-     • Instalasi MediaPipe: MediaPipe digunakan untuk deteksi dan pelacakan wajah secara real-time. Instal pustaka ini dengan perintah:
+        • Instalasi MediaPipe: MediaPipe digunakan untuk deteksi dan pelacakan wajah secara real-time. Instal pustaka ini dengan perintah:
 
           pip install mediapipe
 
-     • Instalasi dependensi tambahan: Beberapa pustaka tambahan yang diperlukan untuk menjalankan aplikasi adalah time dan random, yang sudah terinstal bersama Python secara default.
+        • Instalasi dependensi tambahan: Beberapa pustaka tambahan yang diperlukan untuk menjalankan aplikasi adalah time dan random, yang sudah terinstal bersama Python secara default.
    3. Verifikasi Instalasi: Untuk memverifikasi bahwa semua pustaka telah terinstal dengan benar, jalankan kode berikut di terminal atau command prompt Python:
  
           import cv2
