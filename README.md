@@ -55,9 +55,9 @@ Untuk menjalankan filter Boo!- Filter Tebak Hasil Gabungan Warna, beberapa pusta
         
    4. Verifikasi Instalasi: Untuk memverifikasi bahwa semua pustaka telah terinstal dengan benar, jalankan kode berikut di terminal atau command prompt Python:
  
-          `import cv2`
-           `import mediapipe as mp`
-             `print("OpenCV and MediaPipe installed successfully!")`
+          import cv2
+           import mediapipe as mp
+             print("OpenCV and MediaPipe installed successfully!")
  
       Jika tidak ada error, instalasi berhasil.
 
