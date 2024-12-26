@@ -1,6 +1,6 @@
 # Boo! - Filter Tebak Hasil Gabungan Warna
-Project Mata Kuliah Sistem / Teknologi Multimedia Teknik Informatika ITERA
-Dosen Pengampu : Martin Clinton Tosima Manullang, S.T., M.T.
+- Project Mata Kuliah Sistem / Teknologi Multimedia IF4021 Teknik Informatika ITERA
+- Dosen Pengampu : Martin Clinton Tosima Manullang, S.T., M.T.
 
 ## Anggota
 1. Mohammad Hisyam Alif Setiawan (@121140131MohammadHisyamAlifSetiawan)
