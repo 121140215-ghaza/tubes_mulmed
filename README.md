@@ -40,6 +40,7 @@ Untuk menjalankan filter Boo!- Filter Tebak Hasil Gabungan Warna, beberapa pusta
    1. Persyaratan Sistem:
       Python 3.7-3.10 (Recommended 3.9), Sistem operasi seperti Windows, macOS, atau Linux
    2. Langkah Instalasi:
+      
       - Instalasi Python: Pastikan Python versi terbaru sudah terinstal. Jika belum, silakan unduh dan instal Python dari situs resmi Python.
         
       - Instalasi OpenCV: Setelah Python terinstal, kita perlu menginstal pustaka OpenCV yangdigunakan untuk pengolahan gambar. Gunakan perintah berikut untuk menginstal OpenCV melalui pip:
